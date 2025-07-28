@@ -17,15 +17,11 @@ const Footer = () => {
                         src={assets.logo}
                         alt=""
                     />
-                    <p>
-                        This website is just for my portfolio, it's not a real
-                        website.
-                    </p>
+                     
                     <div className="footer-social-icons">
-                        <img src={assets.facebook_icon} alt="" />
-                        <img src={assets.twitter_icon} alt="" />
+                       
                         <a
-                            href="https://www.linkedin.com/in/your-linkedin-profile"
+                            href="https://www.linkedin.com/in/aman-saurabh86/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -45,14 +41,14 @@ const Footer = () => {
                 <div className="footer-content-right">
                     <h2>GET IN TOUCH</h2>
                     <ul>
-                        <li>+91-9670031694</li>
-                        <li>amansaurabh@gmail.com</li>
+                        <li>+91-967-003-1694</li>
+                        <li>amansaurabh860@gmail.com.com</li>
                     </ul>
                 </div>
             </div>
             <hr />
             <p className="footer-copyright">
-                 
+                Copyright 2024 Aman Saurabh.
             </p>
         </div>
     );
