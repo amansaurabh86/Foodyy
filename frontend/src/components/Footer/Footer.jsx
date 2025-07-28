@@ -3,8 +3,7 @@ import "./Footer.css";
 import { assets } from "../../assets/assets";
 
 const Footer = () => {
-    useEffect(() => {
-        // Ensure the footer logo stays the same for both light and dark modes
+    useEffect(() => { 
         document.querySelector(".tomatologofooter").style.filter = "none";
     }, []);
 
